@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "biblical-research": {
+      "command": "node",
+      "args": [
+        "/Users/mikduart/Library/CloudStorage/OneDrive-Cisco/Coding/biblical-research-mcp/dist/index.js"
+      ],
+      "env": {
+        "ANTHROPIC_API_KEY": "sk-ant-YOUR_KEY_HERE",
+        "BIBLICAL_RESEARCH_MODEL": "claude-sonnet-4-6",
+        "BIBLICAL_RESEARCH_MAX_TOKENS": "8096"
+      }
+    }
+  }
+}

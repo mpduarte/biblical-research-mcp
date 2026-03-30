@@ -1,0 +1,28 @@
+{
+  "name": "biblical-research-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Biblical commentary research from a Calvary Chapel perspective",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "biblical-research-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@modelcontextprotocol/sdk": "^1.10.2",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
